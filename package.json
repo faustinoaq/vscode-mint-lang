@@ -11,9 +11,9 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mint-lang/mint"
+        "url": "https://github.com/faustinoaq/vscode-mint-lang"
     },
-    "bugs": "https://github.com/mint-lang/mint/issues",
+    "bugs": "https://github.com/faustinoaq/vscode-mint-lang/issues",
     "categories": [
         "Languages"
     ],
