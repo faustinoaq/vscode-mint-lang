@@ -1,0 +1,13 @@
+{
+    "Main component": {
+        "prefix": "main",
+        "body": [
+            "component Main {",
+            "\tfun render : Html {",
+            "\t\t<$1/>",
+            "\t}",
+            "}",
+        ],
+        "description": "The component named Main is the one that get's rendered on the screen."
+    }
+}

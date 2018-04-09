@@ -1,0 +1,53 @@
+{
+    "name": "mint-lang",
+    "displayName": "Mint Lang",
+    "description": "A refreshing language for the front-end web.",
+    "version": "0.0.1",
+    "publisher": "faustinoaq",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "icon": "images/icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mint-lang/mint"
+    },
+    "bugs": "https://github.com/mint-lang/mint/issues",
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "mint",
+        "syntax",
+        "languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mint",
+                "aliases": [
+                    "Mint",
+                    "mint"
+                ],
+                "extensions": [
+                    ".mint"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mint",
+                "scopeName": "source.mint",
+                "path": "./syntaxes/mint.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "mint",
+                "path": "./snippets/mint.json"
+            }
+        ]
+    }
+}

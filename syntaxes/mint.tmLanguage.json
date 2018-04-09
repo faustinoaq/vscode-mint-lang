@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Mint",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.mint",
+					"match": "\\b(connect|record|store|with|where|state|exposing|when|use|if|else|component|includes|property|style|get|fun)\\b"
+				},
+				{
+					"name": "entity.name.class.mint",
+					"match": "\\b[A-Z][A-Za-z0-9]*(\\.[A-Z][A-Za-z0-9]*)*\\b"
+				},
+				{
+					"name": "constant.numeric.mint",
+					"match": "\\b(-)?[0-9]([0-9].)*\\b"
+				},
+				{
+					"name": "comment.line.mint",
+					"match": "\\#.*"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.mint",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.mint",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.mint"
+}
