@@ -15,9 +15,7 @@ This extension provides support for the [Mint](https://www.mint-lang.com/) progr
 
 ## Release Notes
 
-### 0.0.1
-
-Initial release of Mint Lang extension
+See [CHANGELOG](./CHANGELOG.md)
 
 ## Contributing
 
