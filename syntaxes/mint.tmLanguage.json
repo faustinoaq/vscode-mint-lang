@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#html"
 		}
 	],
 	"repository": {
@@ -38,6 +41,23 @@
 				{
 					"name": "constant.character.escape.mint",
 					"match": "\\\\."
+				}
+			]
+		},
+		"html": {
+			"begin": "(?i)(?=:(\\s*)Html(\\s*){)",
+			"end": "(?=>})",
+			"contentName": "embedded.html",			
+			"patterns": [
+				{
+					"name": "entity.name.class.mint",
+					"match": "\\b[A-Z][A-Za-z0-9]*(\\.[A-Z][A-Za-z0-9]*)*\\b"
+				},
+				{
+					"include": "text.html.basic"
+				},
+				{
+					"include": "#strings"
 				}
 			]
 		}
