@@ -3,6 +3,10 @@
 ## [Unreleased]
 - Initial release
 
+## [0.0.4] - 2018-05-28
+### Added
+- HTML highlighting [#1](https://github.com/faustinoaq/vscode-mint-lang/pull/1)
+
 ## [0.0.2] - 2018-04-09
 ### Changed
 - Repository links

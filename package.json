@@ -2,7 +2,7 @@
     "name": "mint-lang",
     "displayName": "Mint Lang",
     "description": "A refreshing language for the front-end web.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "faustinoaq",
     "engines": {
         "vscode": "^1.21.0"
