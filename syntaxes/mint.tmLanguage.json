@@ -46,7 +46,7 @@
 		},
 		"html": {
 			"begin": "(?i)(?=:(\\s*)Html(\\s*){)",
-			"end": "(?=>})",
+			"end": "(?<=>})|^\\s*}$",
 			"contentName": "embedded.html",			
 			"patterns": [
 				{
