@@ -2,10 +2,14 @@
 
 This extension provides support for the [Mint](https://www.mint-lang.com/) programming language.
 
+[![Mint code](https://i.imgur.com/Iz7CqNb.gif "Click to see in full screen")](https://i.imgur.com/Iz7CqNb.gif)
+
+[![Example](https://i.imgur.com/MYuCt7Z.gif "Click to See in full screen")](https://i.imgur.com/MYuCt7Z.gif)
+
 ## Roadmap
 
-- More snippets
-- HTML and CSS highlithing support
+- More detailed snippets
+- Better HTML and CSS highlithing support
 - Formatter
 - Linter
 
